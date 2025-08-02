@@ -1,4 +1,3 @@
-
 import {
   Accordion,
   AccordionContent,
@@ -14,7 +13,7 @@ const FAQ = () => {
     },
     {
       question: "Posso testar grátis antes de assinar?",
-      answer: "Sim! Oferecemos 15 dias de teste grátis com acesso a todas as funcionalidades. Você não precisa inserir cartão de crédito e pode cancelar a qualquer momento. É tempo suficiente para você conhecer todos os recursos e ver como o DoceGestão pode transformar sua confeitaria."
+      answer: "Sim! Oferecemos 7 dias de teste grátis com acesso a todas as funcionalidades. Você não precisa inserir cartão de crédito e pode cancelar a qualquer momento. É tempo suficiente para você conhecer todos os recursos e ver como o DoceGestão pode transformar sua confeitaria."
     },
     {
       question: "É possível migrar de plano depois?",

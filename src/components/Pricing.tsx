@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Check, Star } from 'lucide-react';
@@ -59,7 +58,7 @@ const Pricing = () => {
             Escolha o plano ideal para você
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comece grátis por 15 dias e experimente todos os recursos. Cancele quando quiser.
+            Comece grátis por 7 dias e experimente todos os recursos. Cancele quando quiser.
           </p>
         </div>
 

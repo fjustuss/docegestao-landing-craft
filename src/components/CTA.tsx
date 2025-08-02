@@ -26,7 +26,7 @@ const CTA = () => {
           <div className="grid md:grid-cols-3 gap-6 mb-12 max-w-3xl mx-auto">
             <div className="flex items-center justify-center md:justify-start">
               <CheckCircle className="w-6 h-6 mr-3 flex-shrink-0" />
-              <span className="font-semibold">15 dias grátis</span>
+              <span className="font-semibold">7 dias grátis</span>
             </div>
             <div className="flex items-center justify-center md:justify-start">
               <CheckCircle className="w-6 h-6 mr-3 flex-shrink-0" />
@@ -48,11 +48,11 @@ const CTA = () => {
             </Button>
             
             <Button 
-              variant="outline" 
               size="lg" 
-              className="border-2 border-white text-white hover:bg-white hover:text-pink-600 font-semibold px-12 py-4 rounded-full text-xl"
+              className="bg-white text-pink-600 hover:bg-gray-100 font-bold px-12 py-4 rounded-full text-xl shadow-2xl hover:shadow-white/25 transition-all duration-300 group"
             >
               Falar com Consultor
+              <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
 

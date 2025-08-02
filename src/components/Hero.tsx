@@ -30,11 +30,11 @@ const Hero = () => {
               </Button>
               
               <Button 
-                variant="outline" 
                 size="lg" 
-                className="border-2 border-pink-300 text-pink-600 hover:bg-pink-50 font-semibold px-8 py-4 rounded-full text-lg"
+                className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-bold px-8 py-4 rounded-full text-lg shadow-2xl hover:shadow-pink-500/25 transition-all duration-300 group"
               >
                 Ver Demonstração
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
 
@@ -42,7 +42,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4 mt-8 justify-center lg:justify-start">
               <div className="flex items-center bg-white/70 backdrop-blur-sm px-4 py-2 rounded-full">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                <span className="text-sm font-medium">Teste grátis 15 dias</span>
+                <span className="text-sm font-medium">Teste grátis 7 dias</span>
               </div>
               <div className="flex items-center bg-white/70 backdrop-blur-sm px-4 py-2 rounded-full">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
