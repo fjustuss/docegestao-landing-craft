@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Cake } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,9 +50,11 @@ const Header = () => {
 
         {/* CTA Button Desktop */}
         <div className="hidden md:block">
-          <Button className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
-            Acessar Minha Conta
-          </Button>
+          <Link to="/login">
+            <Button className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
+              Acessar Minha Conta
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -85,9 +88,11 @@ const Header = () => {
             >
               Contato
             </button>
-            <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold py-2 rounded-full mt-4">
-              Acessar Minha Conta
-            </Button>
+            <Link to="/login">
+              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold py-2 rounded-full mt-4">
+                Acessar Minha Conta
+              </Button>
+            </Link>
           </nav>
         </div>
       )}
